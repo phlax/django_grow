@@ -16,8 +16,7 @@ setup(
     author_email='ryan@space23.net',
     long_description=open('README.md', 'r').read(),
     packages=[
-        'django_grow',
-        'django_grow.models'],
+        'models'],
     package_data={
         'django_grow': [
             'static/django_grow/css/*']},
