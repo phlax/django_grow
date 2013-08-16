@@ -1,0 +1,216 @@
+.row5,
+.row7,
+.row {
+  *zoom: 1;
+}
+
+.row5:before, .row5:after,
+.row7:before, .row7:after,
+.row:before, .row:after {
+  display: table;
+  content: "";
+}
+
+.row5:after,
+.row7:after,
+.row:after {
+  clear: both;
+}
+
+.span1,
+.span2,
+.span3,
+.span4,
+.span5,
+.span6,
+.span7,
+.span8,
+.span9,
+.span10,
+.span11,
+.span12 {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    float: left;
+}
+
+.offset1 {
+    margin-left: 8.33333%;
+}
+
+.span1 {
+    width: 8.33333%;
+}
+
+.offset2 {
+    margin-left:  16.66666%;
+}
+
+.span2 {
+    width: 16.66666%;
+}
+
+.offset3 {
+    margin-left: 25%;
+}
+
+.span3 {
+    width: 25%;
+}
+
+.offset4 {
+    margin-left: 33.33333%;
+}
+
+.span4 {
+    width: 33.33333%;
+}
+
+.offset5 {
+    margin-left: 41.66666%;
+}
+
+.span5 {
+    width: 41.66666%;
+}
+
+.offset6 {
+    margin-left: 50%;
+}
+
+.span6 {
+    width: 50%;
+}
+
+.offset7 {
+    margin-left: 58.33333%;
+}
+
+.span7 {
+    width: 58.33333%;
+}
+
+.offset8 {
+    margin-left: 66.66666%;
+}
+
+.span8 {
+    width: 66.66666%;
+}
+
+.offset9 {
+    margin-left: 75%;
+}
+
+.span9 {
+    width: 75%;
+}
+
+.offset10 {
+    margin-left: 83.33333%;
+}
+
+.span10 {
+    width: 83.33333%;
+}
+
+.offset11 {
+    margin-left: 91.66666%;
+}
+
+.span11 {
+    width: 91.66666%;
+}
+
+.span12 {
+    width: 100%;
+}
+
+.row5 .offset1 {
+    margin-left: 20%;
+}
+
+.row5 .span1 {
+    width: 20%;
+}
+
+.row5 .offset2 {
+    margin-left: 40%;
+}
+
+.row5 .span2 {
+    width: 40%;
+}
+
+.row5 .offset3 {
+    margin-left: 60%;
+}
+
+.row5 .span3 {
+    width: 60%;
+}
+
+.row5 .offset4 {
+    margin-left: 80%;
+}
+
+.row5 .span4 {
+    width: 80%;
+}
+
+.row5 .span5 {
+    width: 100%;
+}
+
+.row7 .offset1 {
+    margin-left: 14.2857%;
+}
+
+.row7 .span1 {
+    width: 14.2857%;
+}
+
+.row7 .offset2 {
+    margin-left: 28.5714%;
+}
+
+.row7 .span2 {
+    width: 28.5714%;
+}
+
+.row7 .offset3 {
+    margin-left: 42.8571%;
+}
+
+.row7 .span3 {
+    width: 42.8571%;
+}
+
+.row7 .offset4 {
+    margin-left: 57.1429%;
+}
+
+.row7 .span4 {
+    width: 57.1429%;
+}
+
+.row7 .offset5 {
+    margin-left: 85.7142%;
+}
+
+.row7 .span5 {
+    width: 85.7142%;
+}
+
+.row7 .offset6 {
+    margin-left: 71.4286%;
+}
+
+.row7 .span6 {
+    width: 71.4286%;
+}
+
+.row7 .span7 {
+    width: 100%;
+}
