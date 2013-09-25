@@ -1,0 +1,22 @@
+{% for field in form %}
+{% if not field.is_hidden %}
+<div class="row field {% if field.errors %}error{% endif %}">
+  <div class="row field-error">
+    {{ field.errors }}
+  </div>
+  <div class="row">
+    <div class="span3 field-label">
+      {{ field.label }}
+    </div>
+    <div class="span9 field">
+      {{ field }}
+    </div>
+    <div class="row field-help">
+      {{ field.help_message }}
+    </div>
+  </div>
+</div>
+{% else %}
+{{ field }}
+{% endif %}
+{% endfor %}

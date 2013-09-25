@@ -19,6 +19,7 @@ setup(
         'django_grow'],
     package_data={
         'django_grow': [
+            'templagtes/django_grow/*',
             'static/django_grow/css/*']},
     classifiers=[
         'Development Status :: 5 - Production/Stable',

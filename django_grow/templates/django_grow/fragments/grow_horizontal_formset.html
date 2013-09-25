@@ -1,0 +1,20 @@
+{{ formset.management_form }}
+<div class="row formset">
+  <div class="span3 formset-label">
+    {{ formset.label }}
+  </div>
+  <div class="span9 formsets row">
+    {% for form in formset %}
+    <div class="span4 formset">
+      {% for field in form %}
+      <div class="row">
+	{{ field }}
+      </div>
+      {% endfor %}
+    </div>
+  {% endfor %}
+  </div>
+</div>
+
+
+
