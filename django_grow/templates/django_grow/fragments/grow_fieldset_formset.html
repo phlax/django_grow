@@ -1,0 +1,9 @@
+<fieldset>
+  <legend>{{ formset.name }}</legend>
+  {{ formset.management_form }}
+  {% for form in formset %}
+  {% include 'django_grow/fragments/grow_form.html' %}
+  {% endfor %}
+</fieldset>
+    
+
